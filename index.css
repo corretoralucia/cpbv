@@ -1,0 +1,175 @@
+.parallax-banner {
+    /* The image used */
+    background-image: url('images/banner.jpg');
+
+    /* Full height */
+    height: 35vw;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    /*background-position: 0 46px;*/
+    background-size: 100%;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/*@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}*/
+
+
+.aa-information-card{
+  width: 16vw;
+  height: 16vw;
+  display: inline-block;
+  position: relative;
+}
+
+.aa-information-card-icon{
+  font-size: 6vw!important;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aa-infomation-card-item{
+  margin-top: 1vw;
+  font-size:1.5vw;
+
+}
+.aa-infomation-card-description{
+  font-size:1.3vw;
+}
+
+.aa-padding-medium{
+  padding: 8px!important;
+}
+.aa-margin-medium{
+  margin: 8px;
+}
+
+.aa-image-cover{
+    height: 60vw;
+    background-image: url("images/apt1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip:content-box;
+    background-position: 50% 50%;
+}
+
+.aa-image-cover-half{
+    height: 50vw;
+    background-image: url("images/apt1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip:content-box;
+    background-position: 50% 50%;
+}
+
+.aa-margin-small{
+    margin: 16px!important;
+}
+
+.aa-banner-background{
+      background-image: url("images/back-ground-promo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip:content-box;
+      background-position: 50% 50%;
+}
+.aa-banner-image{
+  width:80%;
+  max-width: 1000px;
+  margin:auto;
+  display: block;
+}
+
+.aa-bar-bottom{
+  font-size: 28px!important;
+  padding: 8px!important;
+  margin-top: 4px;
+}
+
+.aa-bar-button-wrapper{
+    margin-right: 8px;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+  .aa-margin-super-small{
+      margin: 1vw!important;
+  }
+
+
+
+  fieldset {
+      border: 0;
+  }
+
+
+  .aa-dark-purple {
+    background-color: #551A8B!important;
+    color: #fff!important;
+  }
+  .aa-padding-bottom{
+    padding-bottom: 8px;
+  }
+  .aa-text-shadow{
+    text-shadow:1px 1px 0 black
+  }
+  .aa-text-large-scalable{
+    font-size: 2vw;
+  }
+@media (max-width: 600px) {
+  .aa-text-large-scalable{
+    font-size: 4vw;
+  }
+  .aa-information-card{
+    width: 40vw;
+    height: 40vw;
+    display: inline-block;
+  }
+
+  .aa-image-cover-half{
+      height: 100vw;
+      background-image: url("images/apt1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-clip:content-box;
+      background-position: 50% 50%;
+  }
+
+  .aa-information-card-icon{
+    font-size: 12vw!important;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .aa-infomation-card-item{
+    margin-top: 2vw;
+    font-size:3vw;
+
+  }
+  .aa-infomation-card-description{
+    font-size:2.6vw;
+  }
+
+  .aa-banner-image{
+    width:100%;
+  }
+
+  .aa-bar-button-wrapper{
+      margin-right: 1vw;
+  }
+  h3.aa-email{
+    font-size: 6vw;
+  }
+
+  .aa-margin-small{
+      margin: 5vw!important;
+  }
+
+}
